@@ -6,6 +6,26 @@
  */
 
 module.exports = {
-	
+
+    hola: function (req, res) {
+        
+        return res.send("Hola desde el controlador pokemon");
+        
+    },
+    adios: function (req, res) {
+        
+        return res.send("Adios desde el controlador");
+        
+    }
+
 };
+
+
+
+
+
+
+
+
+
 
