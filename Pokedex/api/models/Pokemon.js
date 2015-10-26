@@ -22,7 +22,7 @@ module.exports = {
             type: 'string',
             defaultsTo: 'Ninguno'
         },
-        numerPokemon: {
+        numeroPokemon: {
             type: 'integer',
             required:true
         },
