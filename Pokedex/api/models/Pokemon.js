@@ -28,6 +28,10 @@ module.exports = {
         },
         fechaVista:{
             type:'date'
+        },
+        habilidadEspecial:{
+            collection: 'habilidad',
+            via: 'idPokemon'
         }
 
     }
